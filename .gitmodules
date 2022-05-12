@@ -1,0 +1,3 @@
+[submodule "Withered/Assets/Scripts/Shared/UnityToolbox"]
+	path = Withered/Assets/Scripts/Shared/UnityToolbox
+	url = https://github.com/Exsolid/UnityToolbox.git
