@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a70fb2ad2c72ab549abcb12c757397d1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Footlight MT Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f36104bdb1e0d794dbbc8d0a21b89f46, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
