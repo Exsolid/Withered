@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 56154676}
   - component: {fileID: 56154677}
   - component: {fileID: 56154674}
+  - component: {fileID: 56154679}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -307,6 +308,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toShow: {fileID: 518190037}
 --- !u!114 &56154678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56154672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f41adf822f00514d909034bd21ead6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SampleScene
+--- !u!114 &56154679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
