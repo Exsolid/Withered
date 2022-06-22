@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 1871173931}
   - component: {fileID: 1871173929}
   - component: {fileID: 1871173928}
+  - component: {fileID: 1871173933}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -172,9 +173,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   actionMapName: PlayerControls
-  actionNameMoving: Char Move
-  actionNameReturn: Return
-  actionNameInteract: Interact
 --- !u!114 &1871173929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,5 +208,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f9d7755dfde19488a0d69df859cebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1871173933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871173926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7abcc9674f337148bda9846a4ab395b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
