@@ -171,8 +171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba51c5a542dc0147ad6dcd48fddd5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
-  actionMapName: PlayerControls
+  _controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
+  _actionMapName: PlayerControls
 --- !u!114 &1871173929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484b6622195dfdb47a306e8e837318b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moduls: []
 --- !u!114 &1871173932
 MonoBehaviour:
   m_ObjectHideFlags: 0

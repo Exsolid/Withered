@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BackgroundMovement : MonoBehaviour
 {
-    [SerializeField] private float multiplier;
+    [SerializeField] private float _multiplier;
     // Start is called before the first frame update
     void Start()
     {
-        ModuleManager.get<PlayerEventmanager>().move += move;
+        ModuleManager.GetModule<PlayerEventManager>().OnMove += Move;
     }
 
-    public void move(Vector3 direction)
+    public void Move(Vector3 direction, MovementState state)
     {
-        GetComponent<Rigidbody2D>().AddForce(new Vector3(direction.x * multiplier, 0, direction.z));
+        GetComponent<Rigidbody2D>().AddForce(new Vector3(direction.x * _multiplier, 0, direction.z));
     }
 }
